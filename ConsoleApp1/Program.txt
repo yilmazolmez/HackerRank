@@ -1,0 +1,55 @@
+﻿using System.Diagnostics;
+using System.Text.RegularExpressions;
+
+string fullHostName = "july0910._domainkey.mosfed.com";
+string output;
+string pattern = string.Format(@"{0}\s*text =\s*""(k=rsa;.*)""", fullHostName);
+
+var startInfo = new ProcessStartInfo("nslookup");
+startInfo.Arguments = string.Format("-type=TXT {0}", fullHostName);
+startInfo.RedirectStandardOutput = true;
+startInfo.UseShellExecute = false;
+startInfo.WindowStyle = ProcessWindowStyle.Hidden;
+
+using (var cmd = Process.Start(startInfo))
+{
+    output = cmd.StandardOutput.ReadToEnd();
+}
+if (output.Contains("DNS request timed out"))
+{
+    throw new TimeoutException();
+}
+
+
+
+MatchCollection matches = Regex.Matches(output, pattern, RegexOptions.IgnoreCase);
+
+
+
+if (matches.Count == 0)
+{
+  
+    
+}
+if (matches.Count > 1)
+{
+    
+}
+
+if (matches[0].Success)
+{
+    var verified = true;
+   
+
+    foreach (var separatedValue in "k=rsa; t=y; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+Lk+xj48cR1mk7KLVIZXzcDfDY5HGP8eJeQFdJgspbvcTnpoZnZpR7tDJH7wEg4ggBd6BgK/+tZMhEIje9a465v63eSvyAYT4Selftg+/redlYm3PwM6+UJawJWBmuy046gaOYTZAlcAwvQAwRx14rzAacOlaFJ8J6ZECzMpqTQIDAQAB".Split(' '))
+    {
+        if (!matches[0].Groups[1].Value.Contains(separatedValue))
+        {
+            verified = false;
+        }
+    }
+
+    if (verified)
+    {
+    }
+}
