@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DivisibleSumPairs", "Divisi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayOfTheProgrammer", "DayOfTheProgrammer\DayOfTheProgrammer.csproj", "{4B43068E-5067-4181-BE6D-513A996DD480}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bill Division", "Bill Division\Bill Division.csproj", "{B8997302-30CC-42E9-AC08-50E917429014}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bill Division", "Bill Division\Bill Division.csproj", "{B8997302-30CC-42E9-AC08-50E917429014}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales By Match", "Sales By Match\Sales By Match.csproj", "{BE4AEF47-F460-4766-800F-C3918D427813}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{B8997302-30CC-42E9-AC08-50E917429014}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8997302-30CC-42E9-AC08-50E917429014}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8997302-30CC-42E9-AC08-50E917429014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE4AEF47-F460-4766-800F-C3918D427813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4AEF47-F460-4766-800F-C3918D427813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4AEF47-F460-4766-800F-C3918D427813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4AEF47-F460-4766-800F-C3918D427813}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{7BCF0F87-7EF4-45B9-BA31-8D153B3D1D99} = {2EE95A25-5B5C-4AF1-B897-8006F45A2684}
 		{4B43068E-5067-4181-BE6D-513A996DD480} = {2EE95A25-5B5C-4AF1-B897-8006F45A2684}
 		{B8997302-30CC-42E9-AC08-50E917429014} = {2EE95A25-5B5C-4AF1-B897-8006F45A2684}
+		{BE4AEF47-F460-4766-800F-C3918D427813} = {2EE95A25-5B5C-4AF1-B897-8006F45A2684}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {040D8A9A-2D49-479F-82C1-BDE3840C3FFD}
