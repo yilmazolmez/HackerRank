@@ -4,5 +4,5 @@ HackerRank Problem Solving adımında bulunan, problemlerin farklı bakış aç�
 - [Day Of The Programmer](https://github.com/yigitcanolmez/HackerRank/tree/master/DayOfTheProgrammer)
 - [Divisible Sum Pairs](https://github.com/yigitcanolmez/HackerRank/tree/master/DivisibleSumPairs)
 - [Migratory Birds](https://github.com/yigitcanolmez/HackerRank/tree/master/Migratory%20Birds)
-
+- [Sales By Match](https://github.com/yigitcanolmez/HackerRank/tree/master/Sales%20By%20Match)
 Sizde destek olabilirsiniz :)
