@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DivisibleSumPair
+﻿namespace DivisibleSumPair
 {
-   public static class DivisibleSumPairs
+    public static class DivisibleSumPairs
     {
         //AUTHOR : Yiğitcan Ölmez
         public static void Solve1()
