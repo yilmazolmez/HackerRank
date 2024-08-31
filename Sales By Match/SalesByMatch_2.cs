@@ -8,15 +8,12 @@
 
             Dictionary<int, int> dict = new Dictionary<int, int>();
 
-            var tempar = new List<int>();
-
-            tempar.AddRange(ar);
 
             for (int i = 0; i < ar.Count; i++)
             {
                 if (!dict.ContainsKey(ar[i]))
                 {
-                    var count = tempar.Where(x => x == ar[i]).ToList().Count;
+                    var count = ar.Where(x => x == ar[i]).ToList().Count;
 
                     dict.Add(ar[i], count);
                 }
