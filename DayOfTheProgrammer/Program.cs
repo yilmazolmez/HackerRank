@@ -1,2 +1,2 @@
-﻿DayOfTheProgrammers.DayOfTheProgrammers.Solve1();
-DayOfTheProgrammers.DayOfTheProgrammers.Solve2();
+﻿DayOfTheProgrammers.DayOfTheProgrammers.Solve();
+DayOfTheProgrammers.DayOfTheProgrammers_2.Solve();

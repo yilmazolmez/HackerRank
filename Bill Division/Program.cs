@@ -1,4 +1,4 @@
 ﻿using Bill_Division;
 
-BillDivision.Solve1();
-BillDivision.Solve2();
+BillDivision.Solve();
+BillDivision_2.Solve();

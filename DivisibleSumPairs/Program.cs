@@ -3,4 +3,4 @@
 
 using DivisibleSumPair;
 
-DivisibleSumPairs.Solve1();
+DivisibleSumPairs.Solve();

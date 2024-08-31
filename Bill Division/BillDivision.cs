@@ -3,7 +3,7 @@
     public static class BillDivision
     {
         //AUTHOR : Yiğitcan Ölmez
-        public static void Solve1()
+        public static void Solve()
         {
             int b = 7;
             int k = 1;
@@ -17,39 +17,6 @@
                 Console.WriteLine("Bon Appetit");
             else
                 Console.WriteLine(bill[k] / 2);
-        }
-
-        //AUTHOR : Yılmaz Ölmez
-        public static void Solve2()
-        {
-            var bill = new List<int> { 3, 10, 2, 9 };
-            int k = 1;
-            int b = 7;
-
-            int doesntEat = bill[k];
-            int totalCostSharedItem = 0;
-
-            for (int i = 0; i < bill.Count; i++)
-            {
-                if (i == k)
-                {
-                    continue;
-                }
-
-                totalCostSharedItem += bill[i];
-            }
-
-            int halfActual = totalCostSharedItem / 2;
-            var result = b - halfActual;
-
-            if (b == halfActual)
-            {
-                Console.WriteLine("Bon Appetit");
-            }
-            else
-            {
-                Console.WriteLine(result);
-            }
         }
     }
 }

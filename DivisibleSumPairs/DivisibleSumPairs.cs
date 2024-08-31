@@ -3,7 +3,7 @@
     public static class DivisibleSumPairs
     {
         //AUTHOR : Yiğitcan Ölmez
-        public static void Solve1()
+        public static void Solve()
         {
             List<int> ar = new List<int> { 5, 9, 10, 7, 4 };
             int n = 5;
@@ -26,7 +26,7 @@
                 }
             }
 
-        }      
+        }
 
     }
 }
