@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Breaking The Records", "Bre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubArray Division", "SubArray Division\SubArray Division.csproj", "{7322C9D6-9E2B-4136-924B-AD712C29C472}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drawing Book", "Drawing Book\Drawing Book.csproj", "{1D4AEF36-2980-4AEA-AF13-94BED7CE69A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{7322C9D6-9E2B-4136-924B-AD712C29C472}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7322C9D6-9E2B-4136-924B-AD712C29C472}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7322C9D6-9E2B-4136-924B-AD712C29C472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D4AEF36-2980-4AEA-AF13-94BED7CE69A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D4AEF36-2980-4AEA-AF13-94BED7CE69A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D4AEF36-2980-4AEA-AF13-94BED7CE69A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D4AEF36-2980-4AEA-AF13-94BED7CE69A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +78,7 @@ Global
 		{69C46A9D-93CA-4A9D-A620-63F815C358EB} = {2EE95A25-5B5C-4AF1-B897-8006F45A2684}
 		{01565305-0AF0-401E-8176-F61DBC67E16B} = {2EE95A25-5B5C-4AF1-B897-8006F45A2684}
 		{7322C9D6-9E2B-4136-924B-AD712C29C472} = {2EE95A25-5B5C-4AF1-B897-8006F45A2684}
+		{1D4AEF36-2980-4AEA-AF13-94BED7CE69A2} = {2EE95A25-5B5C-4AF1-B897-8006F45A2684}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {040D8A9A-2D49-479F-82C1-BDE3840C3FFD}
